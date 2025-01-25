@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import (
+from .views import ( # type: ignore
     signup, user_login, user_logout, UploadCVAPIView,
     ChatbotAPIView, CVDeleteAPIView, CVListAPI, get_recent_chats_api
 )
